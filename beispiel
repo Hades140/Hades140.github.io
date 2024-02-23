@@ -1,0 +1,60 @@
+<HTML>
+
+  <head>
+
+
+
+  </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+  <body>
+    <style>
+      .navi {
+        background-color: green;
+
+      }
+
+      .content {
+        background-color: Pink;
+ font-family: "Micro 5", sans-serif;
+ height:9000px;
+ font-size:50px;
+
+ 
+ 
+ 
+      }
+
+      body {
+        margin: 0px;
+
+      }
+
+    </style>
+
+
+
+    <div class="navi">
+      Home/Stardseite
+
+    </div>
+
+    <div class="content">
+
+     Dies ist ein Text
+
+
+    </div>
+
+
+
+
+
+  </body>
+
+
+
+
+
+</HTML>

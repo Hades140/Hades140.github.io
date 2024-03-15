@@ -20,7 +20,7 @@
 
     }
 
-    .über {
+    .ueber {
       height: 50px;
       width: 100px;
       background-color: #2E5339;
@@ -46,9 +46,13 @@
       padding: 0px;
       font-family: "Playfair Display";
       text-align: center;
-
       z-index: 50;
       width: 100%;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+
     }
 
     .content {
@@ -80,7 +84,6 @@
       width: 400px;
 
     }
-
   </style>
 
 
@@ -91,26 +94,31 @@
 <body>
   <div class="nav">
     <nav>
-      <a href="logo.html">
-        <button class="logo">
-          <img src="Bilder/Bildschirmfoto_2024-03-15_um_19.44.48-removebg-preview.png" width="200px" height="100px" class="logi">
-        </button>
-      </a>
-      <a href="News.html">
-        <button class="news">
-          News
-        </button>
-      </a>
-      <a href="index.html">
-        <button class="start">
-          Startseite
-        </button>
-      </a>
-      <a href="über.html">
-        <button class="über">
-          Über uns
-        </button>
-      </a>
+      <div class="lo">
+        <a href="logo.html">
+          <button class="logo">
+            <img src="Bilder/Bildschirmfoto_2024-03-15_um_19.44.48-removebg-preview.png" width="200px" height="100px"
+              class="logi">
+          </button>
+        </a>
+      </div>
+      <div class="nus">
+        <a href="News.html">
+          <button class="news">
+            News
+          </button>
+        </a>
+        <a href="index.html">
+          <button class="start">
+            Startseite
+          </button>
+        </a>
+        <a href="über.html">
+          <button class="ueber">
+            Über uns
+          </button>
+        </a>
+      </div>
     </nav>
   </div>
 

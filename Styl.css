@@ -1,4 +1,3 @@
-
 .content {
     background-color: #F96900;
     margin: 0px;
@@ -7,37 +6,37 @@
     font-family: "Playfair Display";
     margin-top: 50px;
     width: 100%;
-  }
+}
 
-  
-  .news {
+
+.news {
 
     height: 50px;
     background-color: #07CF46;
     width: 100px;
     font-family: "Playfair Display";
 
-  }
+}
 
-  .ueber {
+.ueber {
     height: 50px;
     width: 100px;
     background-color: #2E5339;
     font-family: "Playfair Display";
 
-  }
+}
 
-  .start {
+.start {
     height: 50px;
     width: 100px;
     background-color: #26FFED;
     font-family: "Playfair Display";
 
-  }
+}
 
-  .bield {}
+.bield {}
 
-  nav {
+nav {
     background-color: #011638;
 
     margin: 0px;
@@ -47,55 +46,68 @@
     text-align: center;
     z-index: 50;
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 
-  }
 
- 
+}
 
-  body {
+
+
+body {
     margin: 0px;
     padding: 0px;
     font-family: "Playfair Display";
-    background-color:#011638;
-  }
+    background-color: #011638;
+}
 
-  .logo {
+.logo {
     background-color: #011638;
     border: #011638;
-  }
+}
 
-  .logi:hover {
+.logi:hover {
     background-color: #011638;
     border: #011638;
     height: 200px;
     width: 400px;
 
-  }
-  .nus{
+}
+
+.nus {
     margin-top: 50px;
-  }
-  .lo{
+}
+
+.lo {
     margin-top: 10px;
-  }
-  .noone{
+}
+
+.noone {
     margin-top: 20px;
     background-color: #F96900;
     border-color: #F96900;
-      }
-      .text {
-        background-color: #F96900;
-        margin: 0px;
-        padding: 0px;
-        height: 10000px;
-        margin-top: 50px;
-        }
-       
-              .foto{
-            background-color: #F96900;
-            height: 100%;
-            
-              }
+}
+
+.text {
+    background-color: #F96900;
+    margin: 0px;
+    padding: 0px;
+    height: 10000px;
+    margin-top: 50px;
+}
+
+.foto {
+    background-color: #F96900;
+    height: 100%;
+
+}
+
+.ticker {
+    margin-top: 50px;
+background-color: #F96900;
+border-color: #F96900;
+width: 100%;
+font-size: x-large;
+
+}

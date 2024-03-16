@@ -105,9 +105,8 @@ body {
 
 .ticker {
     margin-top: 50px;
-background-color: #F96900;
-border-color: #F96900;
-width: 100%;
-font-size: x-large;
-
+    background-color: #F96900;
+    border: 1px solid #F96900; 
+    width: 100%;
+    font-size: x-large;
 }

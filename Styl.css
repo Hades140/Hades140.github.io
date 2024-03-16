@@ -81,5 +81,19 @@
   .lo{
     margin-top: 10px;
   }
-
-
+  .noone{
+    margin-top: 20px;
+    
+      }
+      .text {
+        background-color: #F96900;
+        margin: 0px;
+        padding: 0px;
+        height: 10000px;
+        }
+       
+              .foto{
+            background-color: #F96900;
+            height: 100%;
+            
+              }

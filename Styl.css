@@ -112,3 +112,10 @@ body {
     font-size: x-large;
    
 }
+
+.nach{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

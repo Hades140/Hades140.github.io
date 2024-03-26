@@ -5,7 +5,7 @@
     height: 10000000000px;
     font-family: "Playfair Display";
     margin-top: 50px;
-    width:auto;
+    width: auto;
 }
 
 
@@ -60,7 +60,7 @@ body {
     padding: 0px;
     font-family: "Playfair Display";
     background-color: #011638;
-    
+
 }
 
 .logo {
@@ -105,17 +105,24 @@ body {
 }
 
 .ticker {
-    
+
     background-color: #F96900;
-    border: 1px solid #F96900; 
+    border: 1px solid #F96900;
     width: 100%;
     font-size: x-large;
-   
+
 }
 
-.nach{
+.nach {
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    justify-content: left;
+
+}
+
+.werbung {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }

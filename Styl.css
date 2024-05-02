@@ -50,7 +50,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
 
-
 }
 
 
@@ -60,7 +59,7 @@ body {
     padding: 0px;
     font-family: "Playfair Display";
     background-color: #F96900;
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 .logo {
@@ -128,10 +127,10 @@ margin-top: 0px;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style :normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 nav {
@@ -139,4 +138,4 @@ nav {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
+}

@@ -143,15 +143,18 @@ nav {
 .startsec {
 display: flex;
 width: 100%;
+background-color: #F96900;
 
 }
 
 .uebersec {
     display: none;
     width: 100%;
+    background-color: #F96900;
 }
 
 .newssec {
     display: none;
     width: 100%;
+    background-color: #F96900;
 }

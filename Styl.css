@@ -140,7 +140,10 @@ nav {
     font-style: normal;
 }
 
-.startsec {}
+.startsec {
+display: flex;
+
+}
 
 .uebersec {
     display: none;

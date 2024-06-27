@@ -139,3 +139,13 @@ nav {
     font-weight: <weight>;
     font-style: normal;
 }
+
+.startsec {}
+
+.uebersec {
+    display: none;
+}
+
+.newssec {
+    display: none;
+}

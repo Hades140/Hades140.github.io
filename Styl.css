@@ -142,13 +142,16 @@ nav {
 
 .startsec {
 display: flex;
+width: 100%;
 
 }
 
 .uebersec {
     display: none;
+    width: 100%;
 }
 
 .newssec {
     display: none;
+    width: 100%;
 }

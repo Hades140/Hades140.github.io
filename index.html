@@ -25,30 +25,31 @@
           <img src="Bilder/Bildschirmfoto_2024-03-15_um_19.44.48-removebg-preview.png" width="200px" height="100px"
             class="logi">
         </button>
-      </a> 
+      </a>
     </div>
     <div class="nus">
-     
-        <button class="news" onclick="news()">
-          News
-        </button>
-     
-      
-        <button class="start" onclick="start()">
-          Startseite
-        </button> 
-     
-        <button class="ueber" onclick="ueber()">
-          Über uns
-        </button>
-   
+
+      <button class="start" onclick="start()">
+        Startseite
+      </button>
+
+      <button class="news" onclick="news()">
+        News
+      </button>
+
+      <button class="ueber" onclick="ueber()">
+        Über uns
+      </button>
+
     </div>
   </nav>
 
   <section class="startsec">
     <div class="content">
       <h1>Tier News</h1>
-      <p><h2> Das ist eine lustige News Seite mit erfundenen Nachrichte aus aller Welt. Viel Spaß beim Lachen! </h2></p>
+      <p>
+      <h2> Das ist eine lustige News Seite mit erfundenen Nachrichte aus aller Welt. Viel Spaß beim Lachen! </h2>
+      </p>
       <a href=game.html>
         <button class="bield">
           <img src="Bilder/Firefly Tier der eine Zeitung in der Flosse hat 57906.jpg" width="1200" height="1200"
@@ -121,7 +122,7 @@
   <script>
 
     //var message = "Ihr computer werden von Virus infiziert senden sie uns 1000$ in Bitcoins sonst wir löschen werden ihre Daten"
-   
+
 
     function news() {
       var HomeSection = document.querySelector(".startsec");
@@ -129,7 +130,7 @@
       var UeberSection = document.querySelector(".uebersec");
       UeberSection.style.display = "none";
       var NewsSection = document.querySelector(".newssec");
-     NewsSection.style.display = "flex";
+      NewsSection.style.display = "flex";
     }
     function start() {
       var HomeSection = document.querySelector(".startsec");
@@ -137,7 +138,7 @@
       var UeberSection = document.querySelector(".uebersec");
       UeberSection.style.display = "none";
       var NewsSection = document.querySelector(".newssec");
-     NewsSection.style.display = "none";
+      NewsSection.style.display = "none";
     }
     function ueber() {
       var HomeSection = document.querySelector(".startsec");
@@ -145,9 +146,9 @@
       var UeberSection = document.querySelector(".uebersec");
       UeberSection.style.display = "flex";
       var NewsSection = document.querySelector(".newssec");
-     NewsSection.style.display = "none";
+      NewsSection.style.display = "none";
     }
-    
+
 
   </script>
 

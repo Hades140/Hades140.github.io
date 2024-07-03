@@ -34,11 +34,11 @@
         </button>
      
       
-        <button class="start" onclick="">
+        <button class="start" onclick="start">
           Startseite
         </button> 
      
-        <button class="ueber" onclick="">
+        <button class="ueber" onclick="ueber">
           Über uns
         </button>
    
@@ -126,21 +126,28 @@
     function news() {
       var HomeSection = document.querySelector(".startsec");
       HomeSection.style.display = "none";
+      var UeberSection = document.querySelector(".uebersec");
+      UeberSection.style.display = "none";
       var NewsSection = document.querySelector(".newssec");
      NewsSection.style.display = "flex";
     }
-    function news() {
+    function start() {
+      var HomeSection = document.querySelector(".startsec");
+      HomeSection.style.display = "flex";
+      var UeberSection = document.querySelector(".uebersec");
+      UeberSection.style.display = "none";
+      var NewsSection = document.querySelector(".newssec");
+     NewsSection.style.display = "none";
+    }
+    function ueber() {
       var HomeSection = document.querySelector(".startsec");
       HomeSection.style.display = "none";
+      var UeberSection = document.querySelector(".uebersec");
+      UeberSection.style.display = "flex";
       var NewsSection = document.querySelector(".newssec");
-     NewsSection.style.display = "flex";
+     NewsSection.style.display = "none";
     }
-    function news() {
-      var HomeSection = document.querySelector(".startsec");
-      HomeSection.style.display = "none";
-      var NewsSection = document.querySelector(".newssec");
-     NewsSection.style.display = "flex";
-    }
+    
 
   </script>
 

@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Note von Finn</title>
+    <title>Note für Finn eingeben</title>
     <script>
-        function checkName() {
+        function displayGrade() {
             var name = document.getElementById("nameInput").value;
+            var grade = document.getElementById("gradeInput").value;
             var result = document.getElementById("result");
             if (name.toLowerCase() === "finn") {
-                result.textContent = "1";
+                result.textContent = grade;
             } else {
-                result.textContent = "Falsch";
+                result.textContent = "Falsch!!";
             }
         }
     </script>
 </head>
 <body>
-    <h1>Note von Finn</h1>
-    <label for="nameInput">Name eingeben:</label>
-    <input type="text" id="nameInput" oninput="checkName()">
+    <h1>Note für Finn eingeben</h1>
+    <label for="nameInput">Name:</label>
+    <input type="text" id="nameInput">
+    <label for="gradeInput">Note:</label>
+    <input type="text" id="gradeInput">
+    <button onclick="displayGrade()">Note anzeigen</button>
     <p>Note: <span id="result"></span></p>
 </body>
 </html>
